@@ -1,0 +1,26 @@
+{
+  "name": "cravezilla",
+  "version": "1.0.0",
+  "description": "This is CraveZilla by Prashant Chakraborty",
+  "homepage": "https://github.com/kibacodes/Cravezilla#readme",
+  "bugs": {
+    "url": "https://github.com/kibacodes/Cravezilla/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibacodes/Cravezilla.git"
+  },
+  "license": "ISC",
+  "author": "Prashant Chakraborty",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
