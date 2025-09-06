@@ -11,7 +11,7 @@ const Body = () => {
     fetchData();
   }, []);
 
-  const fetchData = async () => {
+const fetchData = async () => {
     try {
       const data = await fetch(
         "https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.464433239771175&lng=77.09775215199932&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
@@ -28,6 +28,7 @@ const Body = () => {
       console.error("Error, API Limit reached!");
     }
   };
+
 
   return listOfRestaurants.length === 0 ? (
     <Shimmer />
